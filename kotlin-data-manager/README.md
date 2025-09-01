@@ -1,0 +1,1 @@
+﻿# kotlin-data-manager

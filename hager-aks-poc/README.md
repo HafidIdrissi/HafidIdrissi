@@ -1,0 +1,1 @@
+﻿# hager-aks-poc
