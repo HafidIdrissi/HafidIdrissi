@@ -31,16 +31,6 @@
 **AI/ML**: PyTorch, OpenCV  
 **CI/CD**: GitHub Actions, Azure DevOps  
 
-## 📈 Stats
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=HafidIdrissi&show_icons=true&hide_title=true" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HafidIdrissi&layout=compact" height="150"/>
-</p>
-
-## 🤝 Open-source
-I contribute to issues labeled **good first issue** across FastAPI, Kubernetes charts, and .NET libraries.  
-PRs welcome on my repos — see **CONTRIBUTING.md**.
-
 ## 📫 Contact
 - Email: idrissihafez@gmail.com  
 - LinkedIn: [hafid-idrissi](https://www.linkedin.com/in/hafid-idrissi)  
