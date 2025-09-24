@@ -1,1 +1,0 @@
-﻿# mirion-raspi-ihm
