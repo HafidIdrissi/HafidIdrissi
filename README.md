@@ -53,9 +53,3 @@ and help shape product + architecture.
 
 ---
 
-<div align="center">
-
-![Stats](https://github-readme-stats.vercel.app/api?username=HafidIdrissi&show_icons=true&hide_title=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HafidIdrissi&layout=compact)
-
-</div>
