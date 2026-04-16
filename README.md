@@ -1,181 +1,227 @@
 <div align="center">
 
-# 👋 Hey, I'm Hafid
+  <a href="https://hafid-idrissi.com">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,2,30&height=200&section=header&text=Hafid%20Idrissi&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=FullStack%20%C2%B7%20Cloud%20%C2%B7%20AI%20Engineer&descAlignY=58&descSize=18&animation=fadeIn" alt="banner" />
+  </a>
 
-### Full-Stack Engineer | Cloud Architect | Product Builder
+  <p>
+    <em>I build production systems — from embedded C++ to Kubernetes clusters,<br/>
+    with a current focus on shipping LLM-powered products that actually solve problems.</em>
+  </p>
 
-*I turn ideas into production-ready systems that users love and teams trust.*
+  <p>
+    <a href="https://hafid-idrissi.com">
+      <img src="https://img.shields.io/badge/🌐_Portfolio-hafid--idrissi.com-FF6A3D?style=for-the-badge" alt="portfolio"/>
+    </a>
+    <a href="https://www.linkedin.com/in/hafid-idrissi/">
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/>
+    </a>
+    <a href="mailto:idrissihafez@gmail.com">
+      <img src="https://img.shields.io/badge/idrissihafez%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/>
+    </a>
+  </p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/hafid-idrissi/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-FF6B6B?style=for-the-badge&logo=google-chrome&logoColor=white)](https://hafididrissi.github.io/)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:idrissihafez@gmail.com)
+  <p>
+    <img src="https://img.shields.io/badge/🟢_Open_to-Full--time_%26_Freelance-7FB069?style=flat-square" alt="status"/>
+    <img src="https://img.shields.io/badge/📍_Based_in-Jouy--en--Josas,_France-0E1116?style=flat-square" alt="location"/>
+    <img src="https://img.shields.io/badge/🌍_Mobile-France_%2F_Europe-1F6FEB?style=flat-square" alt="mobility"/>
+  </p>
+
+  <img src="https://komarev.com/ghpvc/?username=HafidIdrissi&label=Profile%20views&color=ff6a3d&style=flat-square" alt="views"/>
 
 </div>
 
 ---
 
-## 🎯 What I Do
+## 👋 About me
 
-I build **complete products** — from pixel-perfect frontends to bulletproof backends and cloud infrastructure that scales.
+I'm a **full-stack & cloud engineer** based in the Paris region, with industry R&D experience at **Hager Group** (Azure microservices, Terraform, AKS) and **Mirion Technologies** (embedded systems, ROS, real-time UI for industrial detection).
 
-```typescript
+These days I spend most of my time building **LLM-powered products** — turning the latest models (Gemini 3, Claude, GPT) into things people actually use. My code lives in production, gets paid users, and survives real load.
+
+```ts
 const hafid = {
-  role: "Full-Stack Engineer",
-  focus: ["Product Development", "Cloud Architecture", "DX Excellence"],
-  mindset: "Ship fast. Build right. Scale smart.",
-  currentStatus: "Open to exciting opportunities 🚀"
+  stack:        ["TypeScript", "Python", "C++", "Azure", "Kubernetes", "Next.js"],
+  llms:         ["Claude", "Gemini 3", "GPT", "Mistral"],
+  shipping:     ["LexiNegotiate", "Checkai.app", "GoEditPDF"],
+  obsessions:   ["clean code", "privacy-first products", ">85% test coverage"],
+  philosophy:   "Boring infrastructure, exciting products.",
+  available:    true
 };
 ```
 
 ---
 
-## 💻 Tech Arsenal
+## 🚀 Featured projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ⚖️ [LexiNegotiate](https://www.youtube.com/watch?v=dinw3NJyobc)
+**AI-powered legal contract negotiation**
+
+Web app that detects abusive clauses in contracts, generates a 3-tier negotiation strategy and produces ready-to-send memos. Multimodal Gemini Vision extraction with **98% OCR accuracy**. 100% client-side — your contracts never leave your browser.
+
+`React 19` `TypeScript` `Gemini 3 Pro` `Gemini Vision` `Flash TTS`
+
+▶️ **[Watch demo](https://www.youtube.com/watch?v=dinw3NJyobc)**
+
+</td>
+<td width="50%" valign="top">
+
+### 🔍 [Checkai.app](https://checkai-app.com)
+**SaaS for AI-text detection · in production**
+
+End-to-end SaaS detecting AI-generated text (perplexity + burstiness analysis, **87% accuracy**). Multi-tenant architecture, JWT auth, Row Level Security, Stripe subscriptions, Sentry monitoring, full Playwright test suite.
+
+`Next.js 14` `NestJS` `PostgreSQL` `Supabase` `Stripe` `Docker`
+
+🌐 **[Open the live site](https://checkai-app.com)**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📄 [GoEditPDF](https://goeditpdf.com)
+**Privacy-first PDF editor**
+
+Full-featured PDF editor that runs **entirely in the browser** — zero server upload, total data sovereignty. Web Workers keep the UI smooth, local OCR with Tesseract.js, offline PWA mode.
+
+`JavaScript` `PDF-Lib` `Fabric.js` `Tesseract.js` `PWA`
+
+🌐 **[Try it live](https://goeditpdf.com)**
+
+</td>
+<td width="50%" valign="top">
+
+### ☁️ Cloud Microservices @ Hager Group
+**Azure Kubernetes platform · 6-month R&D mission**
+
+Designed and shipped a containerised microservices platform on **AKS** with full CI/CD, Terraform IaC, isolated dev/staging/prod environments and Azure Monitor. Comparative TCO analysis showed a **35% cost reduction over 3 years** vs on-premise.
+
+`Azure` `Kubernetes` `Terraform` `Azure DevOps` `NGINX Ingress`
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>🛠️ More projects (click to expand)</b></summary>
+
+<br/>
+
+| Project | Stack | What it does |
+|---------|-------|--------------|
+| 🚁 **Autonomous Quadrotor Drone** | C++ · Arduino · Kalman · PID | End-to-end drone build: SolidWorks CAD, sensor fusion, GPS waypoint tracking within ±2 m |
+| 🔐 **Connected Smart Door** | Python · OpenCV · Raspberry Pi · MQTT | Real-time facial recognition (93% accuracy), TLS encryption, liveness detection |
+| 🎓 **Vis'Avenir** | Figma · Agile · UX | School orientation tool prototyped for 1,200 students at Saint-Jacques Institute |
+| 🏭 **Industrial HMI @ Mirion** | ROS · C++ · Real-time | Critical interface for radiological detection system, >85% test coverage, –40% critical bugs |
+
+</details>
+
+---
+
+## 🧰 Tech stack
 
 <div align="center">
 
-### 🎨 Frontend Craft
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+**Languages**
 
-### ⚙️ Backend Power
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
-### ☁️ Cloud & DevOps
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+**Frontend**
 
-### 🗄️ Data & More
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
+![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white)
+
+**Backend**
+
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
+
+**Cloud & DevOps**
+
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+**AI · Embedded · Tooling**
+
+![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![GPT](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![ROS](https://img.shields.io/badge/ROS-22314E?style=flat-square&logo=ros&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00878F?style=flat-square&logo=arduino&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 
 </div>
 
 ---
 
-## 🚀 Featured Projects
-
-### 🔥 [GoEditPDF](https://goeditpdf.com/) — Free PDF Editor SaaS
-> 100% client-side processing. Zero server. Maximum privacy.
-
-**Tech:** Vanilla JS • PDF-Lib • Fabric.js • Tesseract.js OCR  
-**Features:** Merge, split, rotate, e-sign, annotate, OCR text extraction  
-**Highlights:** SEO-optimized • AdSense monetization • Vercel CI/CD
-
----
-
-### 🤖 [DetectIA](https://checkai-app.com/) — AI Content Detection Platform
-> Detect AI-generated text with enterprise-grade accuracy.
-
-**Stack:** Next.js • NestJS • Supabase • Stripe  
-**Architecture:** JWT auth • Row-level security • Webhook automation  
-**Business:** Free/Pro tiers • Payment integration • Multi-tenant SaaS
-
----
-
-### 📱 Finger Chooser — Multi-Touch Mobile App
-> Real-time multi-touch detection without computer vision.
-
-**Tech:** React Native • Reanimated • Expo  
-**Features:** Simultaneous touch tracking • GPU animations • Full customization  
-**Performance:** Debounced events • Memoized components • Optimized rendering
-
----
-
-### ☁️ Cloud Microservices Platform @ Hager Group
-> Production-ready containerized architecture on Azure.
-
-**Impact:** Cost reduction • Scalable infrastructure • IaC approach  
-**Tech:** AKS • Docker • Azure DevOps • Key Vault • Terraform  
-**Scope:** Network design • CI/CD pipelines • Architecture reviews
-
----
-
-## 📊 GitHub Stats
+## 📊 GitHub at a glance
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=HafidIdrissi&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=HafidIdrissi&layout=compact&theme=radical&hide_border=true&bg_color=0D1117)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=HafidIdrissi&theme=radical&hide_border=true&background=0D1117)
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=HafidIdrissi&show_icons=true&hide_border=true&bg_color=0D1117&title_color=FF6A3D&icon_color=FFD8B1&text_color=ffffff&include_all_commits=true&count_private=true" alt="stats"/>
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HafidIdrissi&layout=compact&hide_border=true&bg_color=0D1117&title_color=FF6A3D&text_color=ffffff&langs_count=8" alt="top-langs"/>
 
 </div>
 
 ---
 
-## 🎓 Certifications
+## 🎓 Education & background
+
+🎓 **Master's in Computer Science & IT Engineering** · 2019 – 2024
+*Specialisations: embedded systems, cloud computing, artificial intelligence*
+
+🌍 **Languages:** French (fluent) · Arabic (native) · English (professional)
+
+---
+
+## 💬 Let's talk
+
+Whether you're a **recruiter** scouting for full-time roles, a **CTO** with a technical challenge, or a **founder** who needs an MVP shipped fast — I'd love to hear about it.
+
+I always reply, even just to point you to the right person if I'm not the right fit.
 
 <div align="center">
 
-[![AWS DevOps](https://img.shields.io/badge/AWS-DevOps_Professional-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/certification/certified-devops-engineer-professional/)
+  <a href="https://hafid-idrissi.com">
+    <img src="https://img.shields.io/badge/🌐_See_my_full_portfolio-FF6A3D?style=for-the-badge" alt="portfolio"/>
+  </a>
+  <a href="mailto:idrissihafez@gmail.com">
+    <img src="https://img.shields.io/badge/✉_Email_me-0E1116?style=for-the-badge" alt="email"/>
+  </a>
+  <a href="https://www.linkedin.com/in/hafid-idrissi/">
+    <img src="https://img.shields.io/badge/💼_Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/>
+  </a>
 
-</div>
+  <br/><br/>
 
----
-
-## 💡 My Philosophy
-
-```python
-def build_great_products():
-    """
-    Three principles that guide every line of code I write.
-    """
-    principles = {
-        "developer_experience": "is a feature",
-        "reliability": "is part of UX",
-        "shipping": "is a skill"
-    }
-    
-    return "Build what matters. Ship what lasts. Scale what works."
-```
-
----
-
-## 🌟 What Makes Me Different
-
-🎯 **Product-First Engineering** — I don't just code features, I solve problems  
-🏗️ **Full-Stack Ownership** — From database schema to deployment pipeline  
-⚡ **Rapid Execution** — Fast prototypes that evolve into production systems  
-🔒 **Security-Conscious** — Auth, encryption, and data privacy by design  
-📈 **Performance Obsessed** — Every millisecond matters to users
-
----
-
-## 📫 Let's Build Something Amazing
-
-I'm currently **open to opportunities** where I can:
-- Own features end-to-end
-- Shape product architecture
-- Work with modern tech stacks
-- Make real impact
-
-**Based in:** Paris, France 🇫🇷  
-**Available:** Immediately  
-**Looking for:** Full-time roles or exciting freelance missions
-
-<div align="center">
-
-### 💬 Get In Touch
-
-[![Email](https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:idrissihafez@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hafid-idrissi/)
-[![Portfolio](https://img.shields.io/badge/View_Portfolio-FF6B6B?style=for-the-badge&logo=google-chrome&logoColor=white)](https://hafididrissi.github.io/)
-
----
-
-*"The best code is the code that ships and solves real problems."*
-
-⭐ **If you like what you see, star some repos and let's connect!** ⭐
+  <sub>⭐ If anything here caught your eye, dropping a star on a repo is the nicest way to say hi.</sub>
 
 </div>
