@@ -1,6 +1,6 @@
 <div align="center">
 
-  <a href="https://hafid-idrissi.com">
+  <a href="https://hidrissi.tech">
     <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,2,30&height=200&section=header&text=Hafid%20Idrissi&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=FullStack%20%C2%B7%20Cloud%20%C2%B7%20AI%20Engineer&descAlignY=58&descSize=18&animation=fadeIn" alt="banner" />
   </a>
 
@@ -210,7 +210,7 @@ I always reply, even just to point you to the right person if I'm not the right 
 
 <div align="center">
 
-  <a href="https://hafid-idrissi.com">
+  <a href="https://https://hidrissi.tech">
     <img src="https://img.shields.io/badge/🌐_See_my_full_portfolio-FF6A3D?style=for-the-badge" alt="portfolio"/>
   </a>
   <a href="mailto:idrissihafez@gmail.com">
