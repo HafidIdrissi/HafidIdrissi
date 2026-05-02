@@ -10,7 +10,7 @@
   </p>
 
   <p>
-    <a href="https://hafid-idrissi.com">
+    <a href="https://hidrissi.tech">
       <img src="https://img.shields.io/badge/🌐_Portfolio-hafid--idrissi.com-FF6A3D?style=for-the-badge" alt="portfolio"/>
     </a>
     <a href="https://www.linkedin.com/in/hafid-idrissi/">
