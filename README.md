@@ -87,11 +87,8 @@ Now I build and ship my own AI products — from database schema to CI/CD pipeli
 
 <div align="center">
 
-<!-- Clickable YouTube-style demo preview  [FIX #4] -->
-<!-- 💡 Replace this with a real screenshot once available: -->
-<!-- [![Persona Studio Preview](URL_TO_SCREENSHOT)](https://influencepersona.com) -->
-
-[![Visit Persona Studio](https://img.shields.io/badge/🌐_Live_Demo-influencepersona.com_%E2%86%92-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://influencepersona.com)
+<!-- Product screenshot — show, don't tell  [FIX #4] -->
+[![Persona Studio — Create AI influencer content for ads, Reels and UGC without booking a shoot](https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/persona-studio-preview.png)](https://influencepersona.com)
 
 </div>
 
