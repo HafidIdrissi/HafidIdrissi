@@ -1,38 +1,63 @@
 <div align="center">
 
-<!-- ════════════════════════════════════════════════════
+<!-- ══════════════════════════════════════════════════════
      ANIMATED HEADER
-════════════════════════════════════════════════════ -->
+══════════════════════════════════════════════════════ -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=210&section=header&text=Hafid%20IDRISSI&fontSize=58&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=AI%20Product%20Engineer%20%E2%80%94%20I%20ship%20SaaS%20solo%2C%20from%20infra%20to%20UI&descAlignY=60&descSize=18" />
 
-<!-- ════════════════════════════════════════════════════
-     TYPING ANIMATION  (direct URL — no git.io shortlink)
-════════════════════════════════════════════════════ -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=900&color=F97316&center=true&vCenter=true&repeat=true&width=700&height=45&lines=🤖+influencepersona.com+—+AI+Influencer+Studio;☁️+Azure+%7C+Kubernetes+%7C+Terraform+%7C+DevOps;🧠+Claude+%7C+Gemini+%7C+fal.ai+%7C+LLM+pipelines;🚀+Idea+to+production+—+solo+or+in+team;💡+%22Boring+infra.+Exciting+products.%22" alt="Typing SVG" />
+<!-- ══════════════════════════════════════════════════════
+     TYPING ANIMATION — direct img tag, no anchor wrapper
+══════════════════════════════════════════════════════ -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=900&color=F97316&center=true&vCenter=true&repeat=true&width=700&height=45&lines=🤖+influencepersona.com+—+AI+Influencer+Studio;☁️+Azure+%7C+Kubernetes+%7C+Terraform+%7C+DevOps;🧠+Claude+%7C+Gemini+%7C+fal.ai+%7C+LLM+pipelines;🚀+Idea+to+production+—+solo+or+in+team;💡+Boring+infra.+Exciting+products." alt="Animated typing" />
 
 <br/><br/>
 
-<!-- ════════════════════════════════════════════════════
-     STATUS BADGES — unified palette: orange / violet / dark
-════════════════════════════════════════════════════ -->
-<img src="https://img.shields.io/badge/🟢_Open_to-CDI_%26_Freelance-F97316?style=flat-square" />
+<!-- ══════════════════════════════════════════════════════
+     METRICS ROW — social proof above the fold  [FIX #1]
+══════════════════════════════════════════════════════ -->
+![6 products live](https://img.shields.io/badge/🚀_6_products-live_in_production-F97316?style=flat-square)
 &nbsp;
-<img src="https://img.shields.io/badge/📍-Jouy--en--Josas,_France-0D1117?style=flat-square&labelColor=0D1117&color=6366F1" />
+![Paying users](https://img.shields.io/badge/💳_Paying_users-across_3_SaaS-6366F1?style=flat-square)
 &nbsp;
-<img src="https://img.shields.io/badge/🌍-France_/_Europe-0D1117?style=flat-square&labelColor=0D1117&color=6366F1" />
+![Solo builder](https://img.shields.io/badge/⚡_Solo-full--stack_builder-22C55E?style=flat-square)
+&nbsp;
+![Available](https://img.shields.io/badge/🟢_Open_to-CDI_%26_Freelance-F97316?style=flat-square)
+
+<br/>
+
+<img src="https://img.shields.io/badge/📍-Paris_region,_France-6366F1?style=flat-square" />
+&nbsp;
+<img src="https://img.shields.io/badge/🌍-France_/_Europe-6366F1?style=flat-square" />
 &nbsp;
 <img src="https://komarev.com/ghpvc/?username=HafidIdrissi&label=Profile%20views&color=F97316&style=flat-square" />
 
-<!-- ════════════════════════════════════════════════════
-     SOCIAL LINKS — same 2-color system
-════════════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════
+     SOCIAL LINKS — 2×2 aligned grid  [FIX #8 partial]
+══════════════════════════════════════════════════════ -->
 <br/><br/>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-hidrissi.tech-F97316?style=for-the-badge&logo=googlechrome&logoColor=white)](https://hidrissi.tech)
 [![Persona Studio](https://img.shields.io/badge/🤖_Persona_Studio-influencepersona.com-6366F1?style=for-the-badge)](https://influencepersona.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hafid-idrissi/)
-[![Email](https://img.shields.io/badge/Email-F97316?style=for-the-badge&logo=gmail&logoColor=white)](mailto:idrissihafez@gmail.com)
 
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hafid-idrissi/)
+[![Email](https://img.shields.io/badge/Email_me-F97316?style=for-the-badge&logo=gmail&logoColor=white)](mailto:idrissihafez@gmail.com)
+
+</div>
+
+---
+
+<!-- ══════════════════════════════════════════════════════
+     TABLE OF CONTENTS  [FIX #9]
+══════════════════════════════════════════════════════ -->
+<div align="center">
+  <a href="#-about-me">About</a> &nbsp;·&nbsp;
+  <a href="#-flagship--persona-studio">Flagship</a> &nbsp;·&nbsp;
+  <a href="#-other-live-products">Projects</a> &nbsp;·&nbsp;
+  <a href="#-tech-stack">Stack</a> &nbsp;·&nbsp;
+  <a href="#-github-at-a-glance">Stats</a> &nbsp;·&nbsp;
+  <a href="#-lets-talk">Contact</a>
 </div>
 
 ---
@@ -45,9 +70,16 @@ Now I build and ship my own AI products — from database schema to CI/CD pipeli
 
 > **"Boring infrastructure. Exciting products."**
 
-**Core:** `TypeScript` `Python` `Next.js 15` `Supabase` `Azure` `Kubernetes`
-**Also used:** `C++` `ROS` `Docker` `Terraform` `fal.ai` `Claude` `Gemini`
-**Deployed:** 6+ products in production with paying users
+<!-- Named badges replacing inline backticks  [FIX #3] -->
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 
 ---
 
@@ -55,20 +87,24 @@ Now I build and ship my own AI products — from database schema to CI/CD pipeli
 
 <div align="center">
 
-[![Persona Studio](https://img.shields.io/badge/🤖_influencepersona.com-Live_·_Paying_users-6366F1?style=for-the-badge)](https://influencepersona.com)
+<!-- Clickable YouTube-style demo preview  [FIX #4] -->
+<!-- 💡 Replace this with a real screenshot once available: -->
+<!-- [![Persona Studio Preview](URL_TO_SCREENSHOT)](https://influencepersona.com) -->
+
+[![Visit Persona Studio](https://img.shields.io/badge/🌐_Live_Demo-influencepersona.com_%E2%86%92-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://influencepersona.com)
 
 </div>
 
 **Create photorealistic AI influencers with face consistency across 100+ images.**
 Upload a reference photo → the model keeps the same face in any scene, outfit or style — production-ready, paying users.
 
-| What | How |
+| | |
 |---|---|
-| 🎨 Multi-model pipeline | fal.ai Flux Pro / Kontext / Ultra / Redux · Kling 3.0 4K video · Seedance 2.0 · lipsync |
-| 🔐 Production security | RLS on every table · `SECURITY DEFINER` SQL credit functions · HMAC timing-safe Stripe webhooks |
-| 💳 Full billing | 4 plans (Starter → Agency €149) · Stripe webhooks · self-service customer portal |
-| ⚡ Backend | 7 Supabase Edge Functions (Deno/TypeScript) · signed URLs · dynamic media re-signing |
-| 🚀 Infra | GitHub Actions CI/CD · GDPR compliant · SEO · admin metrics dashboard |
+| 🎨 **AI pipeline** | fal.ai Flux Pro / Kontext / Ultra / Redux · Kling 3.0 4K video · Seedance 2.0 · lipsync |
+| 🔐 **Security** | RLS on every table · `SECURITY DEFINER` SQL credit functions · HMAC timing-safe Stripe webhooks |
+| 💳 **Billing** | 4 plans Starter → Agency (€149) · Stripe webhooks · self-service customer portal |
+| ⚡ **Backend** | 7 Supabase Edge Functions (Deno/TypeScript) · signed URLs · dynamic media re-signing |
+| 🚀 **DevOps** | GitHub Actions CI/CD · GDPR compliant · SEO optimised · admin metrics dashboard |
 
 `Vanilla JS + Vite` · `Supabase (Auth + PostgreSQL RLS + Storage)` · `fal.ai` · `Stripe` · `Deno/TypeScript`
 
@@ -76,50 +112,68 @@ Upload a reference photo → the model keeps the same face in any scene, outfit 
 
 ## 🚀 Other live products
 
-<div align="center">
-
+<!-- Left-aligned cards, uniform status badge + single CTA each  [FIX #5] -->
 <table>
 <tr>
-<td width="33%" valign="top" align="center">
+<td width="33%" valign="top">
 
-### ⚖️ [LexiNegotiate](https://www.youtube.com/watch?v=dinw3NJyobc)
+![Status](https://img.shields.io/badge/✅_Live-Demo_available-22C55E?style=flat-square)
+
+### ⚖️ LexiNegotiate
+
 AI Legal Contract Negotiation
 
-Detects abusive clauses · generates 3-tier negotiation strategy · auto-produces ready-to-send memos · **98% OCR accuracy** · audio coaching via Gemini Flash TTS · **100% client-side**
+- Detects abusive clauses automatically
+- **98% OCR accuracy** on scans & photos
+- 3-tier negotiation strategy + ready-to-send memos
+- Audio coaching via Gemini Flash TTS
+- 100% client-side — files never leave the browser
 
 `React 19` · `TypeScript` · `Gemini 3 Pro`
 
-[![Demo](https://img.shields.io/badge/▶_Watch_Demo-F97316?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=dinw3NJyobc)
+[![Watch Demo](https://img.shields.io/badge/▶_Watch_Demo-F97316?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=dinw3NJyobc)
 
 </td>
-<td width="33%" valign="top" align="center">
+<td width="33%" valign="top">
 
-### 🔍 [Checkai.app](https://checkai-app.com)
+![Status](https://img.shields.io/badge/✅_Live-Paying_users-22C55E?style=flat-square)
+
+### 🔍 Checkai.app
+
 AI-Text Detection SaaS
 
-Statistical analysis (perplexity + burstiness) · **87% accuracy** · JWT auth · Row Level Security · Stripe subscriptions · Playwright test suite
+- Perplexity + burstiness analysis
+- **87% accuracy** on tested texts
+- JWT auth + Row Level Security
+- Stripe subscriptions + Sentry monitoring
+- Full Playwright + Jest test suite
 
 `Next.js 14` · `NestJS` · `Supabase` · `Stripe`
 
-[![Live](https://img.shields.io/badge/Open_Site-6366F1?style=flat-square&logo=googlechrome&logoColor=white)](https://checkai-app.com)
+[![Open Site](https://img.shields.io/badge/Open_Site-6366F1?style=flat-square&logo=googlechrome&logoColor=white)](https://checkai-app.com)
 
 </td>
-<td width="33%" valign="top" align="center">
+<td width="33%" valign="top">
 
-### 📄 [GoEditPDF](https://goeditpdf.com)
+![Status](https://img.shields.io/badge/✅_Live-Free_open_access-22C55E?style=flat-square)
+
+### 📄 GoEditPDF
+
 Privacy-First PDF Editor
 
-100% in-browser · zero server upload · local OCR via Tesseract.js · Web Workers · offline PWA · **your files never leave your device**
+- 100% in-browser — zero server upload
+- Your files **never leave your device**
+- Local OCR via Tesseract.js + Web Workers
+- Vector layer system with Fabric.js
+- Offline PWA mode
 
 `JavaScript` · `Fabric.js` · `Tesseract.js` · `PWA`
 
-[![Live](https://img.shields.io/badge/Try_it-6366F1?style=flat-square&logo=googlechrome&logoColor=white)](https://goeditpdf.com)
+[![Try It](https://img.shields.io/badge/Try_It-6366F1?style=flat-square&logo=googlechrome&logoColor=white)](https://goeditpdf.com)
 
 </td>
 </tr>
 </table>
-
-</div>
 
 <details>
 <summary><b>🛠️ More projects — click to expand</b></summary>
@@ -128,11 +182,11 @@ Privacy-First PDF Editor
 
 | Project | Stack | Highlights |
 |---------|-------|------------|
-| 🤖 **WhatsApp Portfolio Bot** | n8n · Ollama · Qdrant · RAG | Conversational agent, 100% local inference, zero cloud cost |
+| 🤖 **WhatsApp Portfolio Bot** | n8n · Ollama · Qdrant · RAG | Conversational agent on WhatsApp, 100% local inference, zero cloud inference cost |
 | ☁️ **Cloud IoT Platform @ Hager Group** | Azure AKS · Terraform · DevOps | IoT microservices on Kubernetes, CI/CD automation, **−35% TCO over 3 years** |
 | 🚁 **Autonomous Quadrotor Drone** | C++ · Arduino · Kalman filter · PID | End-to-end build (SolidWorks CAD → firmware), GPS waypoints **±2 m accuracy** |
 | 🔐 **Smart Door — Facial Recognition** | Python · OpenCV · Raspberry Pi · MQTT | Real-time recognition **93% accuracy**, TLS encryption, liveness detection |
-| 🏭 **Industrial HMI @ Mirion Technologies** | ROS Noetic · Python · Hector SLAM | Critical embedded UI, **>85% test coverage**, −40% critical bugs pre-prod |
+| 🏭 **Industrial HMI @ Mirion Technologies** | ROS Noetic · Python · Hector SLAM | Critical embedded UI for radiological detection, **>85% test coverage**, −40% critical bugs pre-prod |
 
 </details>
 
@@ -140,35 +194,69 @@ Privacy-First PDF Editor
 
 ## 🧰 Tech stack
 
+<!-- Named badges with logo — scannable by anyone  [FIX #6] -->
+
 <div align="center">
 
-**Core — what I reach for first**
+**Languages & Runtimes**
 
-<img src="https://skillicons.dev/icons?i=ts,py,nextjs,supabase,azure,docker,kubernetes,terraform" />
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
-<br/><br/>
+**Frontend**
 
-**Frontend & UI**
-
-<img src="https://skillicons.dev/icons?i=react,tailwind,vite,figma" />
-
-<br/><br/>
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 
 **Backend & Data**
 
-<img src="https://skillicons.dev/icons?i=nestjs,fastapi,postgres,prisma,redis,nodejs" />
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
 
-<br/><br/>
+**Cloud & DevOps**
 
-**AI / ML · Embedded · Tooling**
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-<img src="https://skillicons.dev/icons?i=pytorch,opencv,raspberrypi,arduino,bash,linux,githubactions,vercel" />
+**AI & LLMs**
+
+![Claude](https://img.shields.io/badge/Claude_(Anthropic)-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+![fal.ai](https://img.shields.io/badge/fal.ai-FF4B4B?style=flat-square&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+
+**Embedded & IoT**
+
+![ROS](https://img.shields.io/badge/ROS_Noetic-22314E?style=flat-square&logo=ros&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00878F?style=flat-square&logo=arduino&logoColor=white)
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
 
 </div>
 
 ---
 
 ## 📊 GitHub at a glance
+
+<!-- Moved lower — stats support the profile, they don't lead it  [FIX #7] -->
 
 <div align="center">
 
@@ -188,10 +276,12 @@ Privacy-First PDF Editor
 
 ## 🎓 Background
 
-🎓 **Diplôme d'Ingénieur — Informatique & IT** · HEI Hautes Études d'Ingénieur · 2019–2024
+<!-- Full English throughout  [FIX #10] -->
 
-✈️ **Smart Challenge** · École de l'Air et de l'Espace (Armée de l'Air, Aix-en-Provence) · Feb. 2024
-*Selected for an intensive leadership program in military environment — operational simulations under time pressure, multi-team coordination, crisis management. Skills directly applicable to on-call production incidents.*
+🎓 **Engineering Degree (Diplôme d'Ingénieur) — Computer Science & IT** · HEI Hautes Études d'Ingénieur · 2019–2024
+
+✈️ **Leadership & Crisis Management Program** · French Air and Space Force Academy (École de l'Air et de l'Espace, Aix-en-Provence) · Feb. 2024
+*Selected for an intensive program in a military environment — operational simulations under time pressure, multi-team coordination, real-time decision-making with incomplete information. Directly applicable to on-call production incidents.*
 
 🌍 **Languages:** French (native) · Arabic (native) · English (professional)
 
@@ -199,17 +289,24 @@ Privacy-First PDF Editor
 
 ## 💬 Let's talk
 
-Recruiter, CTO with a technical challenge, or founder who needs an MVP shipped in weeks — I reply to everyone, usually within 24 hours.
+Recruiter, CTO with a technical challenge, or founder who needs an MVP shipped in weeks — I reply to everyone, usually **within 24 hours**.
 
+<!-- Symmetric 2×2 CTA grid  [FIX #8] -->
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-hidrissi.tech-F97316?style=for-the-badge&logo=googlechrome&logoColor=white)](https://hidrissi.tech)
 [![Persona Studio](https://img.shields.io/badge/🤖_Persona_Studio-influencepersona.com-6366F1?style=for-the-badge)](https://influencepersona.com)
+
+<br/>
+
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hafid-idrissi/)
 [![Email](https://img.shields.io/badge/Email_me-F97316?style=for-the-badge&logo=gmail&logoColor=white)](mailto:idrissihafez@gmail.com)
 
+<br/><br/>
+
+### ⭐ If a repo caught your eye — a star is the nicest way to say hi
+
 <br/>
-<sub>⭐ If a repo caught your eye — a star is the nicest way to say hi.</sub>
 
 <!-- ANIMATED FOOTER -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" />
