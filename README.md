@@ -10,17 +10,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hafid-idrissi/)
 [![Contact](https://img.shields.io/badge/Contact-6366F1?style=for-the-badge&logo=gmail&logoColor=white)](mailto:idrissihafez@gmail.com)
 
-<sub>
-<a href="#time-tracker">Time Tracker</a> ·
-<a href="#projects">Projects</a> ·
-<a href="#about">About</a> ·
-<a href="#stack">Stack</a> ·
-<a href="#activity">Activity</a>
-</sub>
-
 </div>
-
-<a id="time-tracker"></a>
 
 ## Featured open-source project — Time Tracker
 
@@ -66,8 +56,6 @@ no account, no cloud service, no telemetry.
 > **Contributions are welcome** — documentation, testing, bug fixes and Windows improvements are
 > great places to start. The repository ships a contributing guide, a code of conduct, issue and
 > pull request templates, and a test suite that runs in CI.
-
-<a id="projects"></a>
 
 ## Selected projects
 
@@ -154,8 +142,6 @@ per-battery model against a fleet-level pooled model.
 
 </details>
 
-<a id="about"></a>
-
 ## About
 
 - **Full-stack and AI product development** — I take a product from database schema to CI/CD, on my own when needed.
@@ -172,8 +158,6 @@ per-battery model against a fleet-level pooled model.
 
 Engineering degree (*diplôme d'ingénieur*, master's grade) — JUNIA / HEI, Lille, 2019–2024.
 
-<a id="stack"></a>
-
 ## Stack
 
 | | |
@@ -183,8 +167,6 @@ Engineering degree (*diplôme d'ingénieur*, master's grade) — JUNIA / HEI, Li
 | **Backend** | Node.js · Supabase · PostgreSQL · MongoDB · REST APIs · Stripe |
 | **AI / Data** | PyTorch · Hugging Face · OpenCV · PyMC · LLM APIs (Claude, GPT, Gemini) |
 | **Infrastructure** | Azure (AKS, DevOps) · Docker · Kubernetes · Terraform · GitHub Actions · GitLab CI |
-
-<a id="activity"></a>
 
 ## Activity
 
