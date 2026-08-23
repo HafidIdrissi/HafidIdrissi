@@ -48,7 +48,7 @@
 
   <!-- Line 1 -->
   <text x="50%" y="34" text-anchor="middle" class="l1">
-    &#x1F916; influencepersona.com &#x2014; AI Influencer Studio
+    &#x1F512; Time Tracker &#x2014; local-first, open source, MIT
   </text>
 
   <!-- Line 2 -->
@@ -58,7 +58,7 @@
 
   <!-- Line 3 -->
   <text x="50%" y="34" text-anchor="middle" class="l3">
-    &#x1F9E0; Claude &#x7C; Gemini &#x7C; fal.ai &#x7C; LLM pipelines
+    &#x1F9E0; Python &#x7C; TypeScript &#x7C; LLM &#x26; vision pipelines
   </text>
 
   <!-- Line 4 -->

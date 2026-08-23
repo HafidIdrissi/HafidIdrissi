@@ -1,410 +1,209 @@
 <div align="center">
 
-<!-- ══════════════════════════════════════════════════════
-     ANIMATED HEADER
-══════════════════════════════════════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=210&section=header&text=Hafid%20IDRISSI&fontSize=58&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=AI%20Product%20Engineer%20%E2%80%94%20I%20ship%20SaaS%20solo%2C%20from%20infra%20to%20UI&descAlignY=60&descSize=18" />
-
-<!-- ══════════════════════════════════════════════════════
-     TYPING ANIMATION — self-hosted SVG, 100% reliable
-══════════════════════════════════════════════════════ -->
-<img src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/typing.svg" alt="AI Product Engineer — Hafid IDRISSI" width="700" height="52" />
-
-<br/><br/>
-
-<!-- ══════════════════════════════════════════════════════
-     METRICS ROW — social proof above the fold
-══════════════════════════════════════════════════════ -->
-![7 products live](https://img.shields.io/badge/🚀_7_products-live_in_production-F97316?style=flat-square)
-&nbsp;
-![Paying users](https://img.shields.io/badge/💳_Paying_users-across_3_SaaS-6366F1?style=flat-square)
-&nbsp;
-![Solo builder](https://img.shields.io/badge/⚡_Solo-full--stack_builder-22C55E?style=flat-square)
-&nbsp;
-![Available](https://img.shields.io/badge/🟢_Open_to-CDI_%26_Freelance-F97316?style=flat-square)
-
-<br/>
-
-<img src="https://img.shields.io/badge/📍-Paris_region,_France-6366F1?style=flat-square" />
-&nbsp;
-<img src="https://img.shields.io/badge/🌍-France_/_Europe-6366F1?style=flat-square" />
-&nbsp;
-<img src="https://komarev.com/ghpvc/?username=HafidIdrissi&label=Profile%20views&color=F97316&style=flat-square" />
-
-<!-- ══════════════════════════════════════════════════════
-     LIVE STATUS TERMINAL — self-hosted animated SVG
-══════════════════════════════════════════════════════ -->
-<br/><br/>
-
-<img src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/now-shipping.svg" alt="Shipping status: Persona Studio, Checkai.app, GoEditPDF and LexiNegotiate live in production; Time-Tracker released; CRM RH and Orchestrateur in progress" width="740" height="236" />
-
-<!-- ══════════════════════════════════════════════════════
-     SOCIAL LINKS — 2×2 aligned grid
-══════════════════════════════════════════════════════ -->
-<br/><br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/hero-motion-dark.gif" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/hero-motion-light.gif" />
+  <img src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/hero-motion-dark.gif" alt="Hafid Idrissi — full-stack developer building AI products, privacy-first tools and open-source software" width="900" />
+</picture>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-hidrissi.tech-F97316?style=for-the-badge&logo=googlechrome&logoColor=white)](https://hidrissi.tech)
-[![Persona Studio](https://img.shields.io/badge/🤖_Persona_Studio-influencepersona.com-6366F1?style=for-the-badge)](https://influencepersona.com)
-
-<br/>
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hafid-idrissi/)
-[![Email](https://img.shields.io/badge/Email_me-F97316?style=for-the-badge&logo=gmail&logoColor=white)](mailto:idrissihafez@gmail.com)
+[![Contact](https://img.shields.io/badge/Contact-6366F1?style=for-the-badge&logo=gmail&logoColor=white)](mailto:idrissihafez@gmail.com)
 
-<br/>
-
-<img src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/divider.svg" width="900" height="8" alt="" />
-
-<!-- ══════════════════════════════════════════════════════
-     TABLE OF CONTENTS — header only, not repeated in footer
-══════════════════════════════════════════════════════ -->
-  <a href="#-about-me">About</a> &nbsp;·&nbsp;
-  <a href="#-flagship--persona-studio">Flagship</a> &nbsp;·&nbsp;
-  <a href="#-live-products">Projects</a> &nbsp;·&nbsp;
-  <a href="#-tech-stack">Stack</a> &nbsp;·&nbsp;
-  <a href="#-github-at-a-glance">Stats</a> &nbsp;·&nbsp;
-  <a href="#-lets-talk">Contact</a>
-
-<img src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/divider.svg" width="900" height="8" alt="" />
+**Time Tracker** sends nothing &nbsp;·&nbsp; **GoEditPDF** keeps your files in the browser &nbsp;·&nbsp; private **AKS** networking at Hager &nbsp;·&nbsp; **LiDAR SLAM** at Mirion
 
 </div>
 
-## 👋 About me
+## Featured open-source project
 
-Full-stack & cloud engineer from the Paris region. R&D at **Hager Group** (AKS + Terraform + IoT microservices, −35% TCO) and **Mirion Technologies** (ROS, embedded C++, real-time HMI for radiological detection).
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/dataflow-motion-dark.gif" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/dataflow-motion-light.gif" />
+  <img src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/dataflow-motion-dark.gif" alt="Animated diagram: your activity flows into timetracker.db, a local SQLite file, then into report.html which opens offline. A final packet tries to leave your machine and is stopped at the boundary — no account, no server, no telemetry." width="900" />
+</picture>
 
-Now I build and ship my own AI products — from database schema to CI/CD pipeline, alone.
+Most time trackers answer "where did my time go?" by uploading your activity to somebody's server.
+This one answers it without the upload — the diagram above is the entire data path, written out:
 
-> **"Boring infrastructure. Exciting products."**
+**your activity** (app, window, tab, idle) → **`timetracker.db`** (a local SQLite file you own) →
+**`report.html`** (opens offline). No account, no server, no telemetry, so there is nothing to opt out of.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![fal.ai](https://img.shields.io/badge/fal.ai-FF4B4B?style=flat-square&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
-![ROS](https://img.shields.io/badge/ROS_Noetic-22314E?style=flat-square&logo=ros&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+[![Latest release](https://img.shields.io/github/v/release/HafidIdrissi/Time-Tracker?display_name=tag&sort=semver&color=F97316&label=latest%20release)](https://github.com/HafidIdrissi/Time-Tracker/releases/latest)
+[![Tests](https://img.shields.io/github/actions/workflow/status/HafidIdrissi/Time-Tracker/tests.yml?branch=main&label=tests)](https://github.com/HafidIdrissi/Time-Tracker/actions/workflows/tests.yml)
+[![License](https://img.shields.io/github/license/HafidIdrissi/Time-Tracker?color=6366F1)](https://github.com/HafidIdrissi/Time-Tracker/blob/main/LICENSE)
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://github.com/HafidIdrissi/Time-Tracker)
+[![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?logo=windows&logoColor=white)](https://github.com/HafidIdrissi/Time-Tracker/releases/latest)
+[![Stars](https://img.shields.io/github/stars/HafidIdrissi/Time-Tracker?color=F97316)](https://github.com/HafidIdrissi/Time-Tracker)
 
-<div align="center"><img src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/divider.svg" width="900" height="8" alt="" /></div>
+<div align="center">
+<a href="https://github.com/HafidIdrissi/Time-Tracker">
+<img src="https://raw.githubusercontent.com/HafidIdrissi/Time-Tracker/main/assets/report-preview.svg" alt="Local Time Tracker activity report showing active time, idle time, totals by category, a timeline and the applications used" width="760" />
+</a>
+</div>
 
-## 🌟 Flagship — Persona Studio
+**Beyond the diagram**
 
-[![Persona Studio — Create AI influencer content for ads, Reels and UGC without booking a shoot](https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/persona-studio-preview.png)](https://influencepersona.com)
+- **No manual timers** — it tracks the foreground application, window title, browser tab and idle periods on its own
+- **Reports worth reading** — daily and seven-day summaries, charts, categories and per-application totals
+- **Python, `pywin32` and `psutil`**, with a test suite that runs in CI on every push
+- **Windows installer** on every release with a published SHA-256 checksum — and [not code-signed](https://github.com/HafidIdrissi/Time-Tracker/blob/main/SIGNING.md), which the repository states plainly rather than hiding
 
-**Create photorealistic AI influencers with face consistency across 100+ images.**
-Upload a reference photo → the model keeps the same face in any scene, outfit or style — production-ready, paying users.
+<div align="center">
 
-| | |
-|---|---|
-| 🎨 **AI pipeline** | fal.ai Flux Pro / Kontext / Ultra / Redux · Kling 3.0 4K video · Seedance 2.0 · lipsync |
-| 🔐 **Security** | RLS on every table · `SECURITY DEFINER` SQL credit functions · HMAC timing-safe Stripe webhooks |
-| 💳 **Billing** | 4 plans Starter → Agency (€149) · Stripe webhooks · self-service customer portal |
-| ⚡ **Backend** | 7 Supabase Edge Functions (Deno/TypeScript) · signed URLs · dynamic media re-signing |
-| 🚀 **DevOps** | GitHub Actions CI/CD · GDPR compliant · SEO optimised · admin metrics dashboard |
+[![Download latest release](https://img.shields.io/badge/Download%20latest%20release-F97316?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/HafidIdrissi/Time-Tracker/releases/latest)
+[![View source code](https://img.shields.io/badge/View%20source%20code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HafidIdrissi/Time-Tracker)
 
-`Vanilla JS + Vite` · `Supabase (Auth + PostgreSQL RLS + Storage)` · `fal.ai` · `Stripe` · `Deno/TypeScript`
+[![Contribute](https://img.shields.io/badge/Contribute-6366F1?style=for-the-badge&logo=git&logoColor=white)](https://github.com/HafidIdrissi/Time-Tracker/contribute)
+[![Report an issue](https://img.shields.io/badge/Report%20an%20issue-6366F1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HafidIdrissi/Time-Tracker/issues)
 
-<div align="center"><img src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/divider.svg" width="900" height="8" alt="" /></div>
+</div>
 
-## 🚀 Live products
+> **Contributions are welcome** — documentation, testing, bug fixes and Windows improvements are
+> great places to start. The repository ships a contributing guide, a code of conduct, issue and
+> pull request templates, and a test suite that runs in CI.
+
+## Selected projects
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-![Status](https://img.shields.io/badge/✅_Live-Demo_available-22C55E?style=flat-square)
+### Persona Studio
 
-### ⚖️ LexiNegotiate
+AI content and personal-branding SaaS: image and avatar generation, scene merging, video and
+lipsync, with credit-based Stripe billing.
 
-AI Legal Contract Negotiation
+`Vite` · `Supabase` · `PostgreSQL/RLS` · `Deno` · `Stripe` · `fal.ai`
 
-- Detects abusive clauses automatically
-- **98% OCR accuracy** on scans & photos
-- 3-tier negotiation strategy + ready-to-send memos
-- Audio coaching via Gemini Flash TTS
-- 100% client-side · **no signup needed**
+**Status:** Private code · in launch preparation
 
-`React 19` · `TypeScript` · `Gemini 3 Pro`
-
-[![Watch Demo](https://img.shields.io/badge/▶_Watch_Demo-F97316?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=dinw3NJyobc)
+[influencepersona.com](https://influencepersona.com)
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-![Status](https://img.shields.io/badge/✅_Live-Paying_users-22C55E?style=flat-square)
+### GoEditPDF
 
-### 🔍 Checkai.app
+Privacy-first PDF editor running entirely in the browser — merge, annotate, sign, watermark,
+redact and OCR, with no document ever uploaded to a server.
 
-AI-Text Detection SaaS
+`JavaScript` · `PDF.js` · `PDF-Lib` · `Fabric.js` · `Tesseract.js`
 
-- Perplexity + burstiness analysis
-- **87% accuracy** on tested texts
-- JWT auth + Row Level Security
-- Stripe subscriptions + Sentry monitoring
-- Full Playwright + Jest test suite
+**Status:** Live product
 
-`Next.js 14` · `NestJS` · `Supabase` · `Stripe`
-
-[![Open Site](https://img.shields.io/badge/Open_Site-6366F1?style=flat-square&logo=googlechrome&logoColor=white)](https://checkai-app.com)
-
-</td>
-<td width="33%" valign="top">
-
-![Status](https://img.shields.io/badge/✅_Live-Free_open_access-22C55E?style=flat-square)
-
-### 📄 GoEditPDF
-
-Privacy-First PDF Editor
-
-- 100% in-browser — zero server upload
-- Your files **never leave your device**
-- Local OCR via Tesseract.js + Web Workers
-- Vector layer system with Fabric.js
-- Offline PWA mode
-
-`JavaScript` · `Fabric.js` · `Tesseract.js` · `PWA`
-
-[![Try It](https://img.shields.io/badge/Try_It-6366F1?style=flat-square&logo=googlechrome&logoColor=white)](https://goeditpdf.com)
+[goeditpdf.com](https://goeditpdf.com) · [source](https://github.com/HafidIdrissi/goeditpdf-public)
 
 </td>
 </tr>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-![Status](https://img.shields.io/badge/🆕_New-Installer_released-F97316?style=flat-square)
+### LexiNegotiate
 
-### ⏱️ Time-Tracker
+AI-assisted legal document analysis: reads a contract as text, image or PDF and returns a risk
+score, clause comparison and negotiation strategies.
 
-Automatic Windows Time Tracker
+`React 19` · `TypeScript` · `Google GenAI SDK`
 
-- Tracks apps **and** browser tabs, automatically
-- **100% local storage** — no account, no telemetry
-- Nothing ever leaves your machine
-- Signed Inno Setup installer + silent PowerShell agent
-- Daily/weekly reports, zero manual timers
+**Status:** Open source prototype
 
-`Python` · `PowerShell` · `Inno Setup`
+[source](https://github.com/HafidIdrissi/LexiNegotiate-) · [video demo](https://www.youtube.com/watch?v=dinw3NJyobc)
 
-[![Download](https://img.shields.io/badge/⬇_Download-F97316?style=flat-square&logo=windows&logoColor=white)](https://github.com/HafidIdrissi/Time-Tracker/releases/latest)
+<sub>Decision-support tool; it does not replace legal advice.</sub>
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-![Status](https://img.shields.io/badge/✅_Live-Free_open_access-22C55E?style=flat-square)
+### Bayesian Battery SOH
 
-### 🏗️ Devis Chantier AI
+Hierarchical Bayesian inference for the state of health of Li-ion batteries, comparing a
+per-battery model against a fleet-level pooled model.
 
-AI Construction Quoting
+`Python` · `PyMC` · `NumPyro/JAX` · `ArviZ`
 
-- Turns a job description into a costed quote
-- Line-item breakdown: labour, materials, margin
-- Built for French *artisans* & small contractors
-- Deployed on Vercel, instant to use
+**Status:** Research
 
-`JavaScript` · `LLM API` · `Vercel`
+[source](https://github.com/HafidIdrissi/bayesian-soh-batteries)
 
-[![Open Site](https://img.shields.io/badge/Open_Site-6366F1?style=flat-square&logo=vercel&logoColor=white)](https://devis-chantier-ai.vercel.app)
-
-</td>
-<td width="33%" valign="top">
-
-![Status](https://img.shields.io/badge/📦_Open_source-Template-6366F1?style=flat-square)
-
-### 🧱 Next.js AI SaaS Boilerplate
-
-Ship a SaaS in a weekend
-
-- Supabase auth + PostgreSQL **RLS** preconfigured
-- Stripe billing, webhooks & customer portal
-- CI/CD pipeline + typed end-to-end
-- The exact stack behind my own products
-
-`Next.js 15` · `TypeScript` · `Supabase` · `Stripe`
-
-[![View Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HafidIdrissi/nextjs-ai-saas-boilerplate)
+<sub>Simulated dataset inspired by NASA PCoE; not validated on real cells.</sub>
 
 </td>
 </tr>
 </table>
 
 <details>
-<summary><b>🛠️ More projects & R&D — click to expand</b></summary>
+<summary><b>More projects</b></summary>
 
 <br/>
 
-#### 🔬 Recent builds
-
-| Project | Stack | Highlights |
-|---------|-------|------------|
-| 🧹 **[humanizer](https://github.com/HafidIdrissi/humanizer)** | Claude Code skill · prompt engineering | Strips AI writing patterns and rewrites text as a human would — **EN + FR**, voice matching + scoring |
-| 🔋 **[bayesian-soh-batteries](https://github.com/HafidIdrissi/bayesian-soh-batteries)** | PyMC · NumPyro · Python | Bayesian *hierarchical* inference for Li-ion **State-of-Health** prediction, with uncertainty intervals |
-| 👥 **CRM RH** ![Private](https://img.shields.io/badge/🔒-private-7D8590?style=flat-square) | TypeScript · PostgreSQL · PLpgSQL | HR CRM — candidate pipeline, SQL-side business logic in stored procedures |
-| 🎛️ **Orchestrateur** ![Private](https://img.shields.io/badge/🔒-private-7D8590?style=flat-square) | Python · PowerShell · HTML | Local job orchestrator — scheduling, retries and a web dashboard over Windows workloads |
-| 🤖 **WhatsApp Portfolio Bot** | n8n · Ollama · Qdrant · RAG | Conversational agent, 100% local inference, zero cloud cost |
-
-#### 🏭 Engineering & embedded
-
-| Project | Stack | Highlights |
-|---------|-------|------------|
-| ☁️ **Cloud IoT Platform @ Hager Group** | Azure AKS · Terraform · DevOps | IoT microservices on Kubernetes, CI/CD automation, **−35% TCO over 3 years** |
-| 🚁 **Autonomous Quadrotor Drone** | C++ · Arduino · Kalman filter · PID | End-to-end build (SolidWorks CAD → firmware), GPS waypoints **±2 m accuracy** |
-| 🔐 **Smart Door — Facial Recognition** | Python · OpenCV · Raspberry Pi · MQTT | Real-time recognition **93% accuracy**, TLS encryption, liveness detection |
-| 🏭 **Industrial HMI @ Mirion Technologies** | ROS Noetic · Python · Hector SLAM | Critical embedded UI, **>85% test coverage**, −40% critical bugs pre-prod |
+| Project | What it is | Status |
+|---|---|---|
+| [smart-waste-detector-yolo](https://github.com/HafidIdrissi/smart-waste-detector-yolo) | Six-category waste detector, transfer-learned from Ultralytics YOLO. mAP50 0.496 after 30 epochs. | Open source |
+| [cv-pdf-studio](https://github.com/HafidIdrissi/cv-pdf-studio) | Agent skill turning verified career evidence into CV and cover-letter PDFs, with provenance checks. | Open source |
+| [humanizer](https://github.com/HafidIdrissi/humanizer) | Claude Code skill that strips AI writing patterns and rewrites text in a human voice, English and French. | Open source |
+| [Devis-Chantier-AI](https://github.com/HafidIdrissi/Devis-Chantier-AI) | Turns a job description or a site photo into a structured construction quote, assisted by Gemini. | Open source |
+| [expense-tracker](https://github.com/HafidIdrissi/expense-tracker) | Next.js expense tracker with a flexible daily budget and local persistence, no backend. | Open source |
+| [CheckAI](https://checkai-app.com) | AI-text classification SaaS on a RoBERTa model served through Hugging Face, with Stripe billing. | Live product · private code |
 
 </details>
 
-<div align="center"><img src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/divider.svg" width="900" height="8" alt="" /></div>
+## Background
 
-## 🧰 Tech stack
+I am a software engineer, trained at JUNIA in Lille where I earned a French *diplôme d'ingénieur*
+carrying master's grade. I design and build **AI SaaS platforms** end to end — data model, backend,
+authentication, billing, CI/CD and interface — most of them on my own. CheckAI, a text classification
+service built on a RoBERTa model served through Hugging Face, is online today; Influence Persona, a
+multimodal content platform on Supabase and Stripe, is in launch preparation.
+
+My engineering background is industrial before it was commercial. At **Hager Group** I built a proof
+of concept for deploying IoT APIs securely on Azure Kubernetes Service across three private virtual
+networks. At **Mirion Technologies** I built a real-time 2D LiDAR and SLAM mapping prototype on
+embedded Linux, with a Python operator interface. That work is why I care about systems that behave
+predictably under constraint and keep their data where it belongs — the thesis at the top of this
+page comes from it, not from marketing.
+
+I keep an audited record of my own work. Several figures that used to sit on this page are gone,
+because the repositories behind them did not support the claim.
+
+| | |
+|---|---|
+| **Hager Group** · final-year internship | Cloud & IoT architecture, AKS proof of concept · 2024 |
+| **Mirion Technologies** · R&D internship | Embedded systems, LiDAR SLAM and operator HMI · 2023 |
+| **JUNIA / HEI**, Lille | *Diplôme d'ingénieur*, master's grade · 2019–2024 |
+
+## Stack
+
+| | |
+|---|---|
+| **Languages** | Python · TypeScript · C/C++ · C# · Java · Kotlin · SQL · Bash |
+| **Frontend** | React · Next.js · Vite · Tailwind CSS |
+| **Backend** | Node.js · Supabase · PostgreSQL · MongoDB · REST APIs · Stripe |
+| **AI / Data** | PyTorch · Hugging Face · OpenCV · PyMC · LLM APIs (Claude, GPT, Gemini) |
+| **Infrastructure** | Azure (AKS, DevOps) · Docker · Kubernetes · Terraform · GitHub Actions · GitLab CI |
+
+## Activity
 
 <div align="center">
 
-#### Languages & Runtimes
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=HafidIdrissi&custom_title=Contribution%20activity&bg_color=0D1117&color=E2E8F0&title_color=F97316&line=F97316&point=6366F1&area=true&area_color=F97316&hide_border=true&radius=8" alt="Graph of my GitHub contribution activity over the last month" width="900" />
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+<br/><br/>
 
----
-
-#### Frontend
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-
----
-
-#### Backend & Data
-
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
-
----
-
-#### Cloud & DevOps
-
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
----
-
-#### AI & LLMs
-
-![Claude](https://img.shields.io/badge/Claude_(Anthropic)-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
-![fal.ai](https://img.shields.io/badge/fal.ai-FF4B4B?style=flat-square&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![PyMC](https://img.shields.io/badge/PyMC-3B5FA5?style=flat-square&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-
----
-
-#### Embedded & IoT
-
-![ROS](https://img.shields.io/badge/ROS_Noetic-22314E?style=flat-square&logo=ros&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00878F?style=flat-square&logo=arduino&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
-
-<img src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/divider.svg" width="900" height="8" alt="" />
+<!-- Regenerated every 12h by .github/workflows/snake.yml — source branch `output`, do not edit by hand -->
+<img alt="A snake eating my GitHub contribution graph, animated" src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/output/ocean.gif" width="900" />
 
 </div>
 
-## 📊 GitHub at a glance
+---
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=HafidIdrissi&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=F97316&text_color=E2E8F0&icon_color=6366F1" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HafidIdrissi&layout=compact&hide_border=true&bg_color=0D1117&title_color=F97316&text_color=E2E8F0&langs_count=8" alt="Top languages" />
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=HafidIdrissi&hide_border=true&background=0D1117&border=30363D&stroke=30363D&ring=F97316&fire=F97316&currStreakLabel=F97316&sideLabels=E2E8F0&currStreakNum=E2E8F0&sideNums=E2E8F0&dates=7D8590" alt="Contribution streak" height="165" />
-
-<br/><br/>
-
-<!-- ══════════════════════════════════════════════════════
-     ANIMATED CONTRIBUTION ACTIVITY
-══════════════════════════════════════════════════════ -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=HafidIdrissi&custom_title=Contribution%20activity%20%E2%80%94%20last%2031%20days&bg_color=0D1117&color=E2E8F0&title_color=F97316&line=F97316&point=6366F1&area=true&area_color=F97316&hide_border=true&radius=8" alt="Contribution activity graph" width="900" />
-
-<br/><br/>
-
-### 🐍 The snake eats my contributions
-
-<!-- ══════════════════════════════════════════════════════
-     SNAKE — regenerated every 12h by .github/workflows/snake.yml
-     Source branch: `output` (do not edit by hand)
-══════════════════════════════════════════════════════ -->
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/output/github-snake.svg" />
-  <img alt="A snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/output/github-snake.svg" width="900" />
-</picture>
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=HafidIdrissi&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="GitHub trophies" width="900" />
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/divider.svg" width="900" height="8" alt="" />
-
-</div>
-
-## 🎓 Background
-
-🎓 **Engineering Degree (Diplôme d'Ingénieur) — Computer Science & IT** · HEI Hautes Études d'Ingénieur · 2019–2024
-
-✈️ **Leadership & Crisis Management Program** · French Air and Space Force Academy (École de l'Air et de l'Espace, Aix-en-Provence) · Feb. 2024
-*Selected for an intensive program in a military environment — operational simulations under time pressure, multi-team coordination, real-time decision-making with incomplete information. Directly applicable to on-call production incidents.*
-
-🌍 **Languages:** French (native) · Arabic (native) · English (professional)
-
-<div align="center"><img src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/divider.svg" width="900" height="8" alt="" /></div>
-
-## 💬 Let's talk
-
-Recruiter, CTO with a technical challenge, or founder who needs an MVP shipped in weeks — I reply to everyone, usually **within 24 hours**.
-
-<div align="center">
+**Open to full-stack, cloud and AI engineering work — permanent or freelance, France and Europe.**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-hidrissi.tech-F97316?style=for-the-badge&logo=googlechrome&logoColor=white)](https://hidrissi.tech)
-[![Persona Studio](https://img.shields.io/badge/🤖_Persona_Studio-influencepersona.com-6366F1?style=for-the-badge)](https://influencepersona.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hafid-idrissi/)
+[![Email](https://img.shields.io/badge/Email-6366F1?style=for-the-badge&logo=gmail&logoColor=white)](mailto:idrissihafez@gmail.com)
 
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hafid-idrissi/)
-[![Email](https://img.shields.io/badge/Email_me-F97316?style=for-the-badge&logo=gmail&logoColor=white)](mailto:idrissihafez@gmail.com)
-
-<br/><br/>
-
-### ⭐ If a repo caught your eye — a star is the nicest way to say hi
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" />
+<sub>If Time Tracker is useful to you, a ⭐ on the repository helps other people find it.</sub>
 
 </div>
