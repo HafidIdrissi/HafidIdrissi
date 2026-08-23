@@ -3,8 +3,10 @@
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/hero-motion-dark.gif" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/hero-motion-light.gif" />
-  <img src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/hero-motion-dark.gif" alt="Hafid Idrissi — full-stack developer building AI products, privacy-first tools and open-source software" width="900" />
+  <img src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/hero-motion-dark.gif" alt="Hafid Idrissi, software engineer. I build software that doesn't phone home — local-first tools people can actually audit, and the cloud and embedded work behind them. Azure, Kubernetes, Python, TypeScript, ROS, PyMC." width="900" />
 </picture>
+
+### I build software that doesn't phone home.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-hidrissi.tech-F97316?style=for-the-badge&logo=googlechrome&logoColor=white)](https://hidrissi.tech)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hafid-idrissi/)
