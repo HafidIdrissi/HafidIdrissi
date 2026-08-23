@@ -1,24 +1,32 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=160&section=header&text=Hafid%20Idrissi&fontSize=48&fontColor=ffffff&fontAlignY=36" alt="" />
-
-**Full-stack developer building AI products, privacy-first tools and open-source software.**
-
-<img src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/typing.svg" alt="Full-stack developer — AI products, privacy-first tools, open source" width="700" height="52" />
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/hero-motion-dark.gif" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/hero-motion-light.gif" />
+  <img src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/hero-motion-dark.gif" alt="Hafid Idrissi — full-stack developer building AI products, privacy-first tools and open-source software" width="900" />
+</picture>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-hidrissi.tech-F97316?style=for-the-badge&logo=googlechrome&logoColor=white)](https://hidrissi.tech)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hafid-idrissi/)
 [![Contact](https://img.shields.io/badge/Contact-6366F1?style=for-the-badge&logo=gmail&logoColor=white)](mailto:idrissihafez@gmail.com)
 
+**Time Tracker** sends nothing &nbsp;·&nbsp; **GoEditPDF** keeps your files in the browser &nbsp;·&nbsp; private **AKS** networking at Hager &nbsp;·&nbsp; **LiDAR SLAM** at Mirion
+
 </div>
 
-## Featured open-source project — Time Tracker
+## Featured open-source project
 
-> **See where your Windows time goes, without sending your activity anywhere.**
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/dataflow-motion-dark.gif" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/dataflow-motion-light.gif" />
+  <img src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/dataflow-motion-dark.gif" alt="Animated diagram: your activity flows into timetracker.db, a local SQLite file, then into report.html which opens offline. A final packet tries to leave your machine and is stopped at the boundary — no account, no server, no telemetry." width="900" />
+</picture>
 
-A free, open-source Windows desktop application that automatically measures the time you spend in
-applications and browser tabs. Everything stays in a local SQLite database on your own machine —
-no account, no cloud service, no telemetry.
+Most time trackers answer "where did my time go?" by uploading your activity to somebody's server.
+This one answers it without the upload — the diagram above is the entire data path, written out:
+
+**your activity** (app, window, tab, idle) → **`timetracker.db`** (a local SQLite file you own) →
+**`report.html`** (opens offline). No account, no server, no telemetry, so there is nothing to opt out of.
 
 [![Latest release](https://img.shields.io/github/v/release/HafidIdrissi/Time-Tracker?display_name=tag&sort=semver&color=F97316&label=latest%20release)](https://github.com/HafidIdrissi/Time-Tracker/releases/latest)
 [![Tests](https://img.shields.io/github/actions/workflow/status/HafidIdrissi/Time-Tracker/tests.yml?branch=main&label=tests)](https://github.com/HafidIdrissi/Time-Tracker/actions/workflows/tests.yml)
@@ -33,15 +41,12 @@ no account, no cloud service, no telemetry.
 </a>
 </div>
 
-**What it does**
+**Beyond the diagram**
 
-- **Local-first and privacy-first** — activity is stored only on your Windows computer
-- **Automatic tracking** — foreground application, window title, browser tab and idle periods, with no manual timers
-- **SQLite local storage** — a single database file you own and can inspect
-- **Tkinter desktop interface** — a plain Windows desktop app, not a web wrapper
-- **Offline reports** — daily and seven-day summaries, charts, categories and applications, generated without an internet connection
-- **Windows 10 and 11**, built with Python, `pywin32` and `psutil`
-- **Windows installer** published with each release, with a SHA-256 checksum alongside it
+- **No manual timers** — it tracks the foreground application, window title, browser tab and idle periods on its own
+- **Reports worth reading** — daily and seven-day summaries, charts, categories and per-application totals
+- **Python, `pywin32` and `psutil`**, with a test suite that runs in CI on every push
+- **Windows installer** on every release with a published SHA-256 checksum — and [not code-signed](https://github.com/HafidIdrissi/Time-Tracker/blob/main/SIGNING.md), which the repository states plainly rather than hiding
 
 <div align="center">
 
@@ -142,21 +147,29 @@ per-battery model against a fleet-level pooled model.
 
 </details>
 
-## About
+## Background
 
-- **Full-stack and AI product development** — I take a product from database schema to CI/CD, on my own when needed.
-- **Open-source development** — Time Tracker is MIT-licensed, tested in CI and open to contributors.
-- **Industrial and embedded engineering background** — Azure and Kubernetes at Hager Group, ROS and LiDAR SLAM at Mirion Technologies.
-- **Privacy-first software** — GoEditPDF and Time Tracker both process data on the user's own machine by design.
+I am a software engineer, trained at JUNIA in Lille where I earned a French *diplôme d'ingénieur*
+carrying master's grade. I design and build **AI SaaS platforms** end to end — data model, backend,
+authentication, billing, CI/CD and interface — most of them on my own. CheckAI, a text classification
+service built on a RoBERTa model served through Hugging Face, is online today; Influence Persona, a
+multimodal content platform on Supabase and Stripe, is in launch preparation.
 
-**Experience**
+My engineering background is industrial before it was commercial. At **Hager Group** I built a proof
+of concept for deploying IoT APIs securely on Azure Kubernetes Service across three private virtual
+networks. At **Mirion Technologies** I built a real-time 2D LiDAR and SLAM mapping prototype on
+embedded Linux, with a Python operator interface. That work is why I care about systems that behave
+predictably under constraint and keep their data where it belongs — the thesis at the top of this
+page comes from it, not from marketing.
+
+I keep an audited record of my own work. Several figures that used to sit on this page are gone,
+because the repositories behind them did not support the claim.
 
 | | |
 |---|---|
-| **Hager Group** · final-year internship, 2024 | Proof of concept for deploying IoT APIs securely on Azure Kubernetes Service across three private virtual networks. |
-| **Mirion Technologies** · R&D internship, 2023 | Real-time 2D LiDAR/SLAM mapping prototype on embedded Linux, with a Python operator interface. |
-
-Engineering degree (*diplôme d'ingénieur*, master's grade) — JUNIA / HEI, Lille, 2019–2024.
+| **Hager Group** · final-year internship | Cloud & IoT architecture, AKS proof of concept · 2024 |
+| **Mirion Technologies** · R&D internship | Embedded systems, LiDAR SLAM and operator HMI · 2023 |
+| **JUNIA / HEI**, Lille | *Diplôme d'ingénieur*, master's grade · 2019–2024 |
 
 ## Stack
 
@@ -177,11 +190,7 @@ Engineering degree (*diplôme d'ingénieur*, master's grade) — JUNIA / HEI, Li
 <br/><br/>
 
 <!-- Regenerated every 12h by .github/workflows/snake.yml — source branch `output`, do not edit by hand -->
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/output/github-snake.svg" />
-  <img alt="A snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/output/github-snake.svg" width="900" />
-</picture>
+<img alt="A snake eating my GitHub contribution graph, animated" src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/output/ocean.gif" width="900" />
 
 </div>
 
