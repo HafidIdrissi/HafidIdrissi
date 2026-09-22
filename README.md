@@ -1,211 +1,109 @@
-<div align="center">
-
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/hero-motion-dark.gif" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/hero-motion-light.gif" />
-  <img src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/hero-motion-dark.gif" alt="Hafid Idrissi, software engineer. I build software that doesn't phone home — local-first tools people can actually audit, and the cloud and embedded work behind them. Azure, Kubernetes, Python, TypeScript, ROS, PyMC." width="900" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/profile-header-dark.svg" />
+  <img src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/profile-header-light.svg" alt="Hafid Idrissi — Full-stack and cloud software engineer. From interface to infrastructure." width="100%" />
 </picture>
 
-### I build software that doesn't phone home.
+**[Explore my portfolio](https://hafididrissi.github.io/)** · **[Download my CV](https://hafididrissi.github.io/assets/pdf/Hafid_Idrissi_CV.pdf)** · [LinkedIn](https://www.linkedin.com/in/hafid-idrissi/) · [Email](mailto:idrissihafez@gmail.com)
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-hidrissi.tech-F97316?style=for-the-badge&logo=googlechrome&logoColor=white)](https://hidrissi.tech)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hafid-idrissi/)
-[![Contact](https://img.shields.io/badge/Contact-6366F1?style=for-the-badge&logo=gmail&logoColor=white)](mailto:idrissihafez@gmail.com)
+I build products and the systems behind them: interfaces, APIs, data models, cloud infrastructure and delivery workflows. My background combines **industrial R&D at Hager Group and Mirion Technologies** with independently built SaaS products and tools that keep data on the user's device.
 
-**Time Tracker** sends nothing &nbsp;·&nbsp; **GoEditPDF** keeps your files in the browser &nbsp;·&nbsp; private **AKS** networking at Hager &nbsp;·&nbsp; **LiDAR SLAM** at Mirion
+I graduated from **JUNIA / HEI** with a French engineering degree, master's grade, in 2024. Based in the Paris region, I’m open to **full-stack, cloud and applied AI engineering roles** — permanent or freelance, across France and Europe.
 
-</div>
+## Selected engineering work
 
-## Featured open-source project
+### Hager Group · Private cloud architecture for IoT
 
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/dataflow-motion-dark.gif" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/dataflow-motion-light.gif" />
-  <img src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/dataflow-motion-dark.gif" alt="Animated diagram: your activity flows into timetracker.db, a local SQLite file, then into report.html which opens offline. A final packet tries to leave your machine and is stopped at the boundary — no account, no server, no telemetry." width="900" />
-</picture>
+*Final-year internship · April–October 2024*
 
-Most time trackers answer "where did my time go?" by uploading your activity to somebody's server.
-This one answers it without the upload — the diagram above is the entire data path, written out:
+The question: could existing IoT APIs run securely on Azure Kubernetes Service inside a private network?
 
-**your activity** (app, window, tab, idle) → **`timetracker.db`** (a local SQLite file you own) →
-**`report.html`** (opens offline). No account, no server, no telemetry, so there is nothing to opt out of.
+- **Designed the proof of concept:** three Azure virtual networks, VNet Peering and Private Endpoints connecting AKS, virtual machines and Azure SQL.
+- **Worked through deployment constraints:** containerised .NET APIs, resolved SQL connectivity issues and addressed an ARM64/AMD64 compatibility problem.
+- **Made the proposal reviewable:** validation testing and a monthly infrastructure cost estimate, with assumptions and limitations documented.
 
-[![Latest release](https://img.shields.io/github/v/release/HafidIdrissi/Time-Tracker?display_name=tag&sort=semver&color=F97316&label=latest%20release)](https://github.com/HafidIdrissi/Time-Tracker/releases/latest)
-[![Tests](https://img.shields.io/github/actions/workflow/status/HafidIdrissi/Time-Tracker/tests.yml?branch=main&label=tests)](https://github.com/HafidIdrissi/Time-Tracker/actions/workflows/tests.yml)
-[![License](https://img.shields.io/github/license/HafidIdrissi/Time-Tracker?color=6366F1)](https://github.com/HafidIdrissi/Time-Tracker/blob/main/LICENSE)
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://github.com/HafidIdrissi/Time-Tracker)
-[![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?logo=windows&logoColor=white)](https://github.com/HafidIdrissi/Time-Tracker/releases/latest)
-[![Stars](https://img.shields.io/github/stars/HafidIdrissi/Time-Tracker?color=F97316)](https://github.com/HafidIdrissi/Time-Tracker)
+`Azure` `Kubernetes` `Docker` `Azure SQL` `.NET`
 
-<div align="center">
-<a href="https://github.com/HafidIdrissi/Time-Tracker">
-<img src="https://raw.githubusercontent.com/HafidIdrissi/Time-Tracker/main/assets/report-preview.svg" alt="Local Time Tracker activity report showing active time, idle time, totals by category, a timeline and the applications used" width="760" />
-</a>
-</div>
+[Read the experience →](https://hafididrissi.github.io/#xp-hager)
 
-**Beyond the diagram**
+### CheckAI · The application around the model
 
-- **No manual timers** — it tracks the foreground application, window title, browser tab and idle periods on its own
-- **Reports worth reading** — daily and seven-day summaries, charts, categories and per-application totals
-- **Python, `pywin32` and `psutil`**, with a test suite that runs in CI on every push
-- **Windows installer** on every release with a published SHA-256 checksum — and [not code-signed](https://github.com/HafidIdrissi/Time-Tracker/blob/main/SIGNING.md), which the repository states plainly rather than hiding
+*Independent SaaS product · Private source*
 
-<div align="center">
+A text classification model needs an application around it: account access, usage limits, saved results and billing.
 
-[![Download latest release](https://img.shields.io/badge/Download%20latest%20release-F97316?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/HafidIdrissi/Time-Tracker/releases/latest)
-[![View source code](https://img.shields.io/badge/View%20source%20code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HafidIdrissi/Time-Tracker)
+- **Built the application flow** across a React/Vite frontend, Netlify Functions and Supabase.
+- **Integrated RoBERTa inference** through Hugging Face, including handling model downtime.
+- **Implemented subscription billing** with Stripe, the customer portal and webhook synchronisation; added build validation in GitHub Actions.
 
-[![Contribute](https://img.shields.io/badge/Contribute-6366F1?style=for-the-badge&logo=git&logoColor=white)](https://github.com/HafidIdrissi/Time-Tracker/contribute)
-[![Report an issue](https://img.shields.io/badge/Report%20an%20issue-6366F1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HafidIdrissi/Time-Tracker/issues)
+`React` `Netlify Functions` `Supabase` `Stripe` `Hugging Face`
 
-</div>
+[Architecture & implementation →](https://hafididrissi.github.io/#xp-checkai) · [Product](https://checkai-app.com/)
 
-> **Contributions are welcome** — documentation, testing, bug fixes and Windows improvements are
-> great places to start. The repository ships a contributing guide, a code of conduct, issue and
-> pull request templates, and a test suite that runs in CI.
+### GoEditPDF · Document processing stays in the browser
 
-## Selected projects
+*Independent product · Public repository*
 
-<table>
-<tr>
-<td width="50%" valign="top">
+The design constraint was simple: PDF documents should not need to reach an application server.
 
-### Persona Studio
+- **Kept document processing client-side**, combining PDF.js, PDF-Lib, Fabric.js and Tesseract.js for local OCR.
+- **Built the editing workflows:** merge, reorder, annotate, sign, watermark and visually redact.
+- **Delivered a responsive interface** in English, French and Spanish, with help flows and tutorials.
 
-AI content and personal-branding SaaS: image and avatar generation, scene merging, video and
-lipsync, with credit-based Stripe billing.
+`JavaScript` `PDF.js` `PDF-Lib` `Fabric.js` `Tesseract.js`
 
-`Vite` · `Supabase` · `PostgreSQL/RLS` · `Deno` · `Stripe` · `fal.ai`
+[Source code →](https://github.com/HafidIdrissi/goeditpdf-public) · [Try GoEditPDF](https://goeditpdf.com/)
 
-**Status:** Private code · in launch preparation
+## Start with the code: Local Time Tracker
 
-[influencepersona.com](https://influencepersona.com)
+An open-source Windows tool that records application activity and produces offline reports. **No account, cloud backend or telemetry.**
 
-</td>
-<td width="50%" valign="top">
+```text
+Application activity  →  Local SQLite database  →  Offline HTML report
+```
 
-### GoEditPDF
+Automatic tracking of the foreground app, window title, browser tab and idle time; daily and seven-day summaries with categories and charts. Built with **Python, pywin32, psutil and SQLite**, with automated tests in CI.
 
-Privacy-first PDF editor running entirely in the browser — merge, annotate, sign, watermark,
-redact and OCR, with no document ever uploaded to a server.
+[Browse the source](https://github.com/HafidIdrissi/Time-Tracker) · [Download a release](https://github.com/HafidIdrissi/Time-Tracker/releases/latest) · [Tests](https://github.com/HafidIdrissi/Time-Tracker/actions/workflows/tests.yml)
 
-`JavaScript` · `PDF.js` · `PDF-Lib` · `Fabric.js` · `Tesseract.js`
+<sub>Windows releases include a SHA-256 checksum. The installer is not code-signed; see the repository’s <a href="https://github.com/HafidIdrissi/Time-Tracker/blob/main/SIGNING.md">signing notes</a>.</sub>
 
-**Status:** Live product
+## How I approach engineering
 
-[goeditpdf.com](https://goeditpdf.com) · [source](https://github.com/HafidIdrissi/goeditpdf-public)
+| What matters | Where it shows up |
+| :--- | :--- |
+| **Start with the constraint** | Private networking at Hager; browser-only document processing in GoEditPDF. |
+| **Follow through on the full flow** | Authentication, usage entitlements, billing webhooks and model-downtime handling in CheckAI. |
+| **Make implementation inspectable** | Public repositories, CI tests in Time Tracker, and architecture walkthroughs for private products. |
+| **Be precise about project maturity** | Industry proofs of concept, independent products and research prototypes are labelled separately. |
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+## More of my work
 
-### LexiNegotiate
+| Project | Engineering focus | Stage |
+| :--- | :--- | :--- |
+| [**Mirion Technologies**](https://hafididrissi.github.io/#xp-mirion) | Real-time 2D LiDAR/SLAM on embedded Linux, a Python operator interface and hardware compatibility decisions. | R&D internship · 2023 |
+| [**Influence Persona**](https://hafididrissi.github.io/#xp-persona) | Multimodal AI workflows, PostgreSQL row-level security, Deno functions and credit-based billing. | Solo venture · launch preparation |
+| [**LexiNegotiate**](https://github.com/HafidIdrissi/LexiNegotiate-) | Structured Gemini output for clause analysis, comparison and negotiation support. | Hackathon prototype; demo statistics are simulated |
+| [**Bayesian Battery SOH**](https://github.com/HafidIdrissi/bayesian-soh-batteries) | Per-battery versus hierarchical inference with PyMC and NumPyro. | Research on simulated data; not validated on real cells |
+| [**Smart Waste Detector**](https://github.com/HafidIdrissi/smart-waste-detector-yolo) | YOLO transfer learning, reproducible training and error analysis. | Computer vision project |
+| [**CV PDF Studio**](https://github.com/HafidIdrissi/cv-pdf-studio) | Evidence-based document generation with provenance and readability checks. | Open-source tooling |
 
-AI-assisted legal document analysis: reads a contract as text, image or PDF and returns a risk
-score, clause comparison and negotiation strategies.
+<sub>Project descriptions and stages reflect the career review of August 2026. Full experience details and additional projects are available in the <a href="https://hafididrissi.github.io/#experiences">portfolio</a>.</sub>
 
-`React 19` · `TypeScript` · `Google GenAI SDK`
+## Technical toolkit
 
-**Status:** Open source prototype
-
-[source](https://github.com/HafidIdrissi/LexiNegotiate-) · [video demo](https://www.youtube.com/watch?v=dinw3NJyobc)
-
-<sub>Decision-support tool; it does not replace legal advice.</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### Bayesian Battery SOH
-
-Hierarchical Bayesian inference for the state of health of Li-ion batteries, comparing a
-per-battery model against a fleet-level pooled model.
-
-`Python` · `PyMC` · `NumPyro/JAX` · `ArviZ`
-
-**Status:** Research
-
-[source](https://github.com/HafidIdrissi/bayesian-soh-batteries)
-
-<sub>Simulated dataset inspired by NASA PCoE; not validated on real cells.</sub>
-
-</td>
-</tr>
-</table>
-
-<details>
-<summary><b>More projects</b></summary>
-
-<br/>
-
-| Project | What it is | Status |
-|---|---|---|
-| [smart-waste-detector-yolo](https://github.com/HafidIdrissi/smart-waste-detector-yolo) | Six-category waste detector, transfer-learned from Ultralytics YOLO. mAP50 0.496 after 30 epochs. | Open source |
-| [cv-pdf-studio](https://github.com/HafidIdrissi/cv-pdf-studio) | Agent skill turning verified career evidence into CV and cover-letter PDFs, with provenance checks. | Open source |
-| [humanizer](https://github.com/HafidIdrissi/humanizer) | Claude Code skill that strips AI writing patterns and rewrites text in a human voice, English and French. | Open source |
-| [Devis-Chantier-AI](https://github.com/HafidIdrissi/Devis-Chantier-AI) | Turns a job description or a site photo into a structured construction quote, assisted by Gemini. | Open source |
-| [expense-tracker](https://github.com/HafidIdrissi/expense-tracker) | Next.js expense tracker with a flexible daily budget and local persistence, no backend. | Open source |
-| [CheckAI](https://checkai-app.com) | AI-text classification SaaS on a RoBERTa model served through Hugging Face, with Stripe billing. | Live product · private code |
-
-</details>
-
-## Background
-
-I am a software engineer, trained at JUNIA in Lille where I earned a French *diplôme d'ingénieur*
-carrying master's grade. I design and build **AI SaaS platforms** end to end — data model, backend,
-authentication, billing, CI/CD and interface — most of them on my own. CheckAI, a text classification
-service built on a RoBERTa model served through Hugging Face, is online today; Influence Persona, a
-multimodal content platform on Supabase and Stripe, is in launch preparation.
-
-My engineering background is industrial before it was commercial. At **Hager Group** I built a proof
-of concept for deploying IoT APIs securely on Azure Kubernetes Service across three private virtual
-networks. At **Mirion Technologies** I built a real-time 2D LiDAR and SLAM mapping prototype on
-embedded Linux, with a Python operator interface. That work is why I care about systems that behave
-predictably under constraint and keep their data where it belongs — the thesis at the top of this
-page comes from it, not from marketing.
-
-I keep an audited record of my own work. Several figures that used to sit on this page are gone,
-because the repositories behind them did not support the claim.
-
-| | |
-|---|---|
-| **Hager Group** · final-year internship | Cloud & IoT architecture, AKS proof of concept · 2024 |
-| **Mirion Technologies** · R&D internship | Embedded systems, LiDAR SLAM and operator HMI · 2023 |
-| **JUNIA / HEI**, Lille | *Diplôme d'ingénieur*, master's grade · 2019–2024 |
-
-## Stack
-
-| | |
-|---|---|
-| **Languages** | Python · TypeScript · C/C++ · C# · Java · Kotlin · SQL · Bash |
-| **Frontend** | React · Next.js · Vite · Tailwind CSS |
-| **Backend** | Node.js · Supabase · PostgreSQL · MongoDB · REST APIs · Stripe |
-| **AI / Data** | PyTorch · Hugging Face · OpenCV · PyMC · LLM APIs (Claude, GPT, Gemini) |
-| **Infrastructure** | Azure (AKS, DevOps) · Docker · Kubernetes · Terraform · GitHub Actions · GitLab CI |
-
-## Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=HafidIdrissi&custom_title=Contribution%20activity&bg_color=0D1117&color=E2E8F0&title_color=F97316&line=F97316&point=6366F1&area=true&area_color=F97316&hide_border=true&radius=8" alt="Graph of my GitHub contribution activity over the last month" width="900" />
-
-<br/><br/>
-
-<!-- Regenerated every 12h by .github/workflows/snake.yml — source branch `output`, do not edit by hand -->
-<img alt="A snake eating my GitHub contribution graph, animated" src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/output/ocean.gif" width="900" />
-
-</div>
+| Area | Technologies used in my work |
+| :--- | :--- |
+| **Product & application** | TypeScript · JavaScript · React · Vite · Python · REST APIs |
+| **Cloud & delivery** | Azure · AKS · Docker · Kubernetes · GitHub Actions · Linux |
+| **Data & services** | PostgreSQL · Supabase · SQLite · Stripe · Deno |
+| **Applied AI & embedded** | Hugging Face · PyTorch · PyMC · OpenCV · ROS · MQTT |
 
 ---
 
-<div align="center">
+## A product to build. A system to figure out.
 
-**Open to full-stack, cloud and AI engineering work — permanent or freelance, France and Europe.**
+I’m interested in teams where I can contribute across the product, discuss technical tradeoffs and learn from experienced engineers. I can walk you through the code, the architecture and the decisions behind the projects above.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-hidrissi.tech-F97316?style=for-the-badge&logo=googlechrome&logoColor=white)](https://hidrissi.tech)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hafid-idrissi/)
-[![Email](https://img.shields.io/badge/Email-6366F1?style=for-the-badge&logo=gmail&logoColor=white)](mailto:idrissihafez@gmail.com)
+**[Let’s talk →](mailto:idrissihafez@gmail.com)** · [LinkedIn](https://www.linkedin.com/in/hafid-idrissi/) · [Portfolio](https://hafididrissi.github.io/) · [CV in English](https://hafididrissi.github.io/assets/pdf/Hafid_Idrissi_CV.pdf)
 
-<sub>If Time Tracker is useful to you, a ⭐ on the repository helps other people find it.</sub>
-
-</div>
+<sub>Paris region, France · French (native) · English (professional)</sub>
