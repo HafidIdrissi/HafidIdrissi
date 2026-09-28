@@ -15,6 +15,15 @@
 
 <table>
 <tr>
+<td colspan="2" valign="top">
+<a href="https://hafididrissi.github.io/Crewlo/"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/HafidIdrissi/Crewlo/main/docs/crewlo/demo/readme-studio-poster.png" /><img src="https://raw.githubusercontent.com/HafidIdrissi/Crewlo/main/docs/crewlo/demo/readme-studio.gif" alt="Crewlo: illustrated demo of a mission, agent activity and reply in a voxel studio." width="100%" /></picture></a>
+<h3><a href="https://github.com/HafidIdrissi/Crewlo">Crewlo →</a></h3>
+<p>Your coding agents, one visual workspace. Send missions, follow their activity and read replies in a living voxel studio.<br /><sub>Electron · React · TypeScript · PixiJS · SQLite</sub></p>
+<p><a href="https://github.com/HafidIdrissi/Crewlo">Source code</a> · <a href="https://hafididrissi.github.io/Crewlo/">Interactive demo</a></p>
+<sub><b>Open source · Early preview</b> · Illustrated animation</sub>
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://goeditpdf.com/"><picture><source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/project-pdf-still-dark.svg?v=studio-20260922" /><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/project-pdf-still-light.svg?v=studio-20260922" /><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/project-pdf-dark.svg?v=studio-20260922" /><img src="https://raw.githubusercontent.com/HafidIdrissi/HafidIdrissi/main/assets/project-pdf-light.svg?v=studio-20260922" alt="GoEditPDF: Edit, sign and OCR. All in your browser." width="100%" /></picture></a>
 <h3><a href="https://goeditpdf.com/">GoEditPDF →</a></h3>
